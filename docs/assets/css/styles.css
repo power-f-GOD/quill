@@ -1139,6 +1139,11 @@ body:not(.home) .navbar-link:before {
   font-size: 1.2rem;
   margin-top: 11em;
   text-transform: uppercase;
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+  max-height: 100vh;
+  padding-top: 1rem;
 }
 #sidebar-container .search-item {
   display: none;
